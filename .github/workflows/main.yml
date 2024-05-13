@@ -1,0 +1,17 @@
+name: Test Workflow 😎
+
+on: [push, pull_request]
+
+jobs:
+  test_log:
+    name: Test workflow setup ✨
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout
+      - name: First Log
+        run: echo "Woohooo !!!!"
+
+      - name: Second Log
+        run: echo "Ye to chal gaya !!!!"
+
+
